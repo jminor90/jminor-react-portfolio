@@ -3,6 +3,7 @@ import MainBody from "./MainBody"
 import Footer from "./Footer"
 import Projects from './Projects'
 import Hero from './Hero'
+import Resume from './Resume'
 
 export default function MainContainer() {
   return (
@@ -11,6 +12,7 @@ export default function MainContainer() {
       <Navbar/>
       <MainBody/>
       <Projects/>
+      <Resume/>
       <Footer/>
     </>
   )

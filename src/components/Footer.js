@@ -24,10 +24,6 @@ export default function Footer() {
               </li>
             </a>
           </ul>
-          
-          <p class="copyright">
-            Website made with &#128153; by <a href="https://github.com/jminor90" target="_blank">Joshua Minor</a>
-          </p>
         </section>
       </div>
     </footer>
