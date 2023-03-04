@@ -1,22 +1,42 @@
-import Projects from "./Projects"
+import '../styles/MainBody.css'
+import Image from "../assets/images/patches.png"
+
+
 export default function MainBody() {
-  
+
   return (
-    <main class="main-content">
-      <section id="about-me" class="about-me">
-      <h2>
-        <p>
-          About Me
-        </p>
-      </h2>
-        
-          <p>
-            From a very young age I have always been fascinated with computers and technology. I witnessed the beginning of dial up internet, and grew fascinated by how easy it was for people across the world to connect. I learned around that time what HTML was and attempted to build some websites of my own. During High School I took a class for Visual Basic and HTML which further developed my curiosity in coding.
-              <br/>
-            However, I decided to pursue my other passion - music. After some time I decided to make a change in my life and got back into coding again. More recently I've been coding with Python and leaning Web Development with the Coding Bootcamp offered through the University of Arizona.
-          </p>
-        </section>
-      <Projects/>
-    </main>
+    <section id="about-me">
+      <div class="container">
+        <div class="section-title">
+          <h2>About Me</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src={Image} class="img-fluid" id="about-me-img" alt=""></img>
+          </div>
+          <div class="col-lg-8 content" data-aos="fade-left">
+            <h3>UI/UX Designer &amp; Web Developer.</h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+                <ul>
+                  <li> <b>Birthday:</b> <span>1 May 1995</span></li>
+                  <li> <b>Website:</b> <span>www.example.com</span></li>
+                  <li> <b>Phone:</b> <span>+123 456 7890</span></li>
+                  <li> <b>City:</b> <span>New York, USA</span></li>
+                </ul>
+
+            <p>
+              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+            </p>
+          </div>
+        </div>
+        </div>
+
+    </section>
   )
 }

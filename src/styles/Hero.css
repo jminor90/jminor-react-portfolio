@@ -1,0 +1,20 @@
+.topSpan {
+  /* font-family: 'Marck Script', cursive; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 1.5%;
+  background-image: url(../assets/images/Starry-BG.gif);
+  border-bottom: solid 3px;
+  border-right: solid 2px;
+  border-left: solid 2px;
+  border-radius: 0px 0px 10px 0px;
+  font-size: 180%;
+  color: var(--contrast-color);
+  border-color: var(--layer2-color);
+  height: 100vh
+}
+
+#spanText{
+  margin-left:50%
+}
