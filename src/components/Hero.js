@@ -8,7 +8,7 @@ export default function Hero() {
       Sometimes major problems, require Minor Solutions...
     </p>
     
-    <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+    {/* <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p> */}
 
     </span>
   )

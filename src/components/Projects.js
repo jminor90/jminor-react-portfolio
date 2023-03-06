@@ -59,13 +59,15 @@ const projects = [
 ];
 
 export default function Projects() {
-  
+
   return (
-    <section id="my-projects" class ="d-flex align-items-center justify-content-center">
-      <div class="container ">
-        <h2>My Projects</h2>
-        <div class="container grid">
-          <ProjectContents projects={projects}/>
+    <section id="my-projects" class="d-flex align-items-center justify-content-center">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Projects</h2>
+        </div>
+        <div class="container-fluid grid">
+          <ProjectContents projects={projects} />
         </div>
       </div>
     </section>

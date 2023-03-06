@@ -15,7 +15,9 @@ footer{
   flex-direction: column;
   justify-content: center;
   border-bottom: solid 3px;
-  border-right: solid 2px;
-  border-left: solid 2px;
   border-radius: 0px 0px 10px 0px;
+}
+
+.info *{
+  font-size: large;
 }

@@ -1,3 +1,11 @@
+:root {
+  --background-color:#1d2731 ;
+  --text-color:#aaaaaa ;
+  --layer1-color: #083c5d;
+  --layer2-color: #328cc1;
+  --contrast-color:#d98310 ;
+}
+
 #resume {
   padding-left: 300px;
   background-image: linear-gradient(to bottom, #1d2731 0%, #083c5d 100%);
@@ -7,7 +15,11 @@
   flex-direction: column;
   justify-content: center;
   border-bottom: solid 3px;
-  border-right: solid 2px;
-  border-left: solid 2px;
-  border-radius: 0px 0px 10px 0px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+#downloadButton{
+  background-color: var(--layer2-color);
+  color:var(--background-color);
 }
