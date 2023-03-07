@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/jminor-react-portfolio/static/css/main.4eca4d4d.css",
+    "main.js": "/jminor-react-portfolio/static/js/main.b67894a9.js",
+    "static/media/Starry-BG.gif": "/jminor-react-portfolio/static/media/Starry-BG.4c3ec7e617a5c67a53b0.gif",
+    "static/media/weather-dashboard.png": "/jminor-react-portfolio/static/media/weather-dashboard.378583a989aafe3933aa.png",
+    "static/media/patches.png": "/jminor-react-portfolio/static/media/patches.7168bc35a9e000333071.png",
+    "static/media/the-translator.png": "/jminor-react-portfolio/static/media/the-translator.063f665354ba7127b8e4.png",
+    "static/media/trivia-game.png": "/jminor-react-portfolio/static/media/trivia-game.ddb3c0c2efaa003d94d9.png",
+    "static/media/off-n-on.png": "/jminor-react-portfolio/static/media/off-n-on.9f41373417a14f904360.png",
+    "static/media/readme-generator.png": "/jminor-react-portfolio/static/media/readme-generator.8d96e2e886032cdc2bbb.png",
+    "static/media/nosql-nosocial-media.png": "/jminor-react-portfolio/static/media/nosql-nosocial-media.9791463f197e7e2e78f8.png",
+    "index.html": "/jminor-react-portfolio/index.html",
+    "main.4eca4d4d.css.map": "/jminor-react-portfolio/static/css/main.4eca4d4d.css.map",
+    "main.b67894a9.js.map": "/jminor-react-portfolio/static/js/main.b67894a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4eca4d4d.css",
+    "static/js/main.b67894a9.js"
+  ]
+}
