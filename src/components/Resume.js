@@ -97,7 +97,7 @@ export default function Resume() {
           </div>
         </div>
         <div class="row">
-          <a href="https://docs.google.com/document/d/1V1UEAm24GcJIsYxJ9zD5ym7RreIp5dUX/edit?usp=sharing&ouid=115658308765347975196&rtpof=true&sd=true" target="_blank">
+          <a download href="../assets/documents/jminor-resume.pdf">
             <button class="btn" id="downloadButton"><i class="fa fa-download"></i><b>Download my Resume</b> </button>
           </a>
         </div>

@@ -6,6 +6,7 @@
   --contrast-color:#d98310 ;
 }
 
+
 #resume {
   padding-left: 300px;
   background-image: linear-gradient(to bottom, #1d2731 0%, #083c5d 100%);
@@ -22,4 +23,10 @@
 #downloadButton{
   background-color: var(--layer2-color);
   color:var(--background-color);
+}
+
+@media screen and (max-width: 1000px) {
+  #resume {
+    padding-left: 15px;
+  }
 }

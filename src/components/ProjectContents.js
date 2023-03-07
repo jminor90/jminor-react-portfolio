@@ -3,7 +3,7 @@ export default function ProjectContents(props) {
   return (
     <>
       {props.projects.map(item => (
-        <div className="img-wrapper col-9">
+        <div className="img-wrapper col-12 col-md-9">
           <h5 id="projectTitle">{item.name}</h5>
           <img class="p-2 blur" src={item.image} />
           <div class="content fade slide-up">

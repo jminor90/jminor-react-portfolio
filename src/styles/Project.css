@@ -24,7 +24,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 .img-wrapper {
@@ -83,9 +83,22 @@
   transform: translateY(0);
 }
 
+@media screen and (max-width: 1320px) {
+  #my-projects {
+    height: unset;
+  }
+}
 
 @media screen and (max-width: 1000px) {
+  /*
+  remove vH 100
+  update div class to container-fluid (*remove grid)
 
+  */
+  #my-projects {
+    padding-left: 15px;
+    height: unset;
+  }
 }
 
 /* 

@@ -21,3 +21,9 @@ footer{
 .info *{
   font-size: large;
 }
+
+@media screen and (max-width: 1000px) {
+  footer {
+    padding-left: 15px;
+  }
+}

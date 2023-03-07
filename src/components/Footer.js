@@ -1,6 +1,40 @@
 import '../styles/Footer.css'
 
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 export default function Footer() {
+  // const formControl = document.getElementsByClassName('.form-control')
+  const form = useRef();
+  // const formName = document.getElementById('name')
+  const clearForm= () => {
+    alert("Thanks for the email")
+    document.getElementById('name').value = '';
+    document.getElementById('email').value = '';
+    document.getElementById('subject').value = '';
+    document.getElementById('formMessage').value = '';
+  }
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+
+
+    emailjs.sendForm('service_dkjivzo', 'contact_form', form.current, '81wG53jVxNtFgZP9M')
+      .then((result) => {
+          console.log(result.text);
+          clearForm();
+      }, (error) => {
+          console.log(error.text);
+      }
+      
+      );
+    
+
+
+      
+      
+  };
 
   return (
     <footer>
@@ -38,7 +72,7 @@ export default function Footer() {
             {/* Look into https://www.emailjs.com/docs/examples/reactjs/ */}
 
             <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <form ref={form} onSubmit={sendEmail} method="post" role="form" class="php-email-form">
                 <div class="row">
 
                   <div class="form-group col-md-6">
@@ -60,16 +94,16 @@ export default function Footer() {
 
                 <div class="form-group">
                   <label for="name">Message</label>
-                  <textarea class="form-control" name="message" rows="10" required></textarea>
+                  <textarea class="form-control" name="message" rows="10" id="formMessage" required></textarea>
                 </div>
 
-                <div class="my-3">
+                {/* <div class="my-3">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
+                </div> */}
 
-                <div class="text-center"><button type="submit">Send Message</button></div>
+                <div class="my-3 text-center"><button type="submit">Send Message</button></div>
               </form>
             </div>
 
