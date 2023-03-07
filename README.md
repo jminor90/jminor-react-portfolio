@@ -1,7 +1,5 @@
 # jminor-react-portfolio
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 
 
 ## Description
@@ -9,30 +7,38 @@ My professional portfolio rebuilt in react utilizing React.JS components and pro
 
 ## Table of Contents
 
-- [Installation](#installation)
 - [Usage](#usage)
-- [Tests](#tests)
 - [Credits](#credits)
 - [License](#license)
 - [Questions](#questions)
 
-## Installation
-You may need to install the following packages...
 
-none
 
 ## Usage
-Link to Application: https://none
 
-View at the deployed link
+View at Deployed Link to Application: https://jminor90.github.io/jminor-react-portfolio/
 
-## Tests
-none
+![Image of Deployed Application](src/assets/images/screenshot.png)
+
+
 
 ## Credits
-Inspiration by Bootstrap, Youtube Links here too
+The following helped me get this project to where it is now
+- Inspired by [iPortfolio by BootStrap Made template](https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/)
+- [Web Dev Simplified on YouTube](https://youtu.be/tF3RE5CGt9U)
+- [Kevin Powell on YouTube](https://youtu.be/iGUSTyG-CYw)
+- [MDN Docs](https://developer.mozilla.org/en-US/)
+- [ReactJS Docs](https://reactjs.org/)
+- Email Functionality through [EmailJS](https://www.emailjs.com/)
 
+Shout outs for the help
+- [Christoph551](https://github.com/Christoph551)
+- [AnthonyFrederick7](https://github.com/AnthonyFrederick7)
 
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+See License File
 
 ## Questions?
 
