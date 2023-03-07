@@ -10,7 +10,8 @@ export default function MainBody() {
         <div class="section-title">
           <h2>About Me</h2>
         </div>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <p>Throughout my life I have been fascinated with computers and technology. I enjoy problem-solving and being able to express my creativity. I taught myself how to play music, and attempted to take my career and education in that direction. After some time I decided to bring my focus back to working with computers, and coding. I was already familiar with HTML,Visual BASIC, and Python to develop my curiosity.
+        Soon I will be graduating from the <strong><u>University of Arizona's Web Development Certification</u></strong> and consider myself a ... </p>
 
 
         <div class="row col-md-12">
@@ -18,21 +19,26 @@ export default function MainBody() {
             <img src={Image} class="img-fluid" id="about-me-img" alt=""></img>
           </div>
           <div class="col-lg-8 col-md-12 content" data-aos="fade-left">
-            <h3>UI/UX Designer &amp; Web Developer.</h3>
+            <h3><strong>Full Stack Web Developer</strong></h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              I enjoy making applications, and find the problem-solving part of coding to be very satisfying.
+              <br/>Front-end code is where I like to work, and I have been enjoying learning the functionality of databases.
+              <br/>As a Junior Web Developer I consider myself proficient in the following technologies:
             </p>
             <ul>
-              <li> <b>Birthday:</b> <span>1 May 1995</span></li>
-              <li> <b>Website:</b> <span>www.example.com</span></li>
-              <li> <b>Phone:</b> <span>+123 456 7890</span></li>
-              <li> <b>City:</b> <span>New York, USA</span></li>
+              <li>MongoDB</li>
+              <li>ExpressJS</li>
+              <li>ReactJS</li>
+              <li>NodeJS</li>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>MySQL</li>
+              <li>GraphQL</li>
             </ul>
 
             <p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+              If you have any further questions about myself or my experience feel free to <a href="#contact-me">Contact Me</a> or look over my <a href="#resume"> Resume</a>
             </p>
           </div>
         </div>

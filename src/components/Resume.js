@@ -1,4 +1,5 @@
 import '../styles/Resume.css'
+import ResumePDF from '../assets/documents/jminor-resume.pdf'
 export default function Resume() {
 
   return (
@@ -9,25 +10,25 @@ export default function Resume() {
             Resume
           </h2>
         </div>
-        <p>Lorem ipsum
+        <p>10+ Years of connecting with customers with a diverse background in retail work spaces, ready for my next challenge to become a Junior Web Developer.
         </p>
 
         <div class="row">
 
           <div class="col-6">
             <h3><u>
-              Summary
+            Summary
             </u></h3>
             <div>
-              <h4>
-                Joshua Minor
-              </h4>
+
               <p><i>
-                lorem ipsum
+                Former retail, and service worker - soon to be certified in Web Development
               </i></p>
               <ul>
                 <li>Tucson, AZ</li>
-                <li>minor.jbm@gmail.com</li>
+                <li>Fast-paced learner</li>
+                <li>Detail orientated</li>
+                <li>Self-starter, ready for any new challenges</li>
               </ul>
             </div>
 
@@ -43,9 +44,8 @@ export default function Resume() {
               Completed March, 2023
             </i></p>
             <ul>
-              <li>List Item</li>
-              <li>List Item</li>
-              <li>List Item</li>
+              <li>Industry driven Full-Stack curriculum including: HTML, CSS, JavaScript, jQuery, Node.JS, MySQL, Express.js, React.js and MongoDB </li>
+
             </ul>
           </div>
 
@@ -55,9 +55,9 @@ export default function Resume() {
             </u></h3>
 
             <div>
-              <h4>
+              <h4><strong>
                 Patient Care Consultant
-              </h4>
+                </strong></h4>
               <p>
                 2021-2022
               </p>
@@ -67,28 +67,28 @@ export default function Resume() {
                 Alternative Medicine Retail Space - Tucson, AZ
               </i></p>
               <ul>
-                <li>List Item</li>
-                <li>List Item</li>
-                <li>List Item</li>
+                <li>Asssisted Medical Patients in finding the right product for their own specific needs</li>
+                <li>Attended educational classes to further knowledge in alternative medicine and product 	knowledge.</li>
+                <li>Made personal connections with patients, to build trust, and to follow up with previous medicinal 	experiences.</li>
               </ul>
             </div>
 
             <div>
-              <h4>
+              <h4><strong>
                 Shift Supervisor
-              </h4>
+                </strong></h4>
               <p>
                 2017-2021
               </p>
               <p><i>
                 <b>Starbucks</b>
                 <br />
-                Tucson, AZ
+                Coffee Shop and Retail Space - Tucson, AZ
               </i></p>
               <ul>
-                <li>List Item</li>
-                <li>List Item</li>
-                <li>List Item</li>
+                <li>Primary closing supervisor handling inventory management, product delivery, and personnel</li>
+                <li>Working in a cooperative fast paced environment, overcoming unseen obstacles during our shifts 	together and learning from them to grow as a team</li>
+                <li>Connect with customers and help deliver the Starbucks experience by creating a warm and comforting environment in the restaurant space</li>
               </ul>
             </div>
 
@@ -97,7 +97,7 @@ export default function Resume() {
           </div>
         </div>
         <div class="row">
-          <a download href="../assets/documents/jminor-resume.pdf">
+          <a download href={ResumePDF}>
             <button class="btn" id="downloadButton"><i class="fa fa-download"></i><b>Download my Resume</b> </button>
           </a>
         </div>

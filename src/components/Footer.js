@@ -43,7 +43,7 @@ export default function Footer() {
           <div class="section-title">
             <h2>Contact</h2>
           </div>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>If you're looking for a friendly, hard-working individual to be a part of your team or have questions about myself and my work experience, please don't hestitate to reach out!</p>
 
           <div class="row">
 
@@ -57,7 +57,7 @@ export default function Footer() {
 
                 <div>
                   <h4 class="fa fa-envelope"> Email:</h4>
-                  <a href="mailto:minor.jbm@gmail.com" target="_blank" ><p>info@example.com</p></a>
+                  <a href="mailto:minor.jbm@gmail.com" target="_blank" ><p>minor.jbm@gmail.com</p></a>
                 </div>
 
                 <div>
