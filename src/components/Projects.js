@@ -6,10 +6,19 @@ import CartoonTrivia from '../assets/images/trivia-game.png'
 import WeatherDashboard from '../assets/images/weather-dashboard.png'
 import NoSQLNoSocialMedia from '../assets/images/nosql-nosocial-media.png'
 import ReadMeGenerator from '../assets/images/readme-generator.png'
+import MusicJunkeez from '../assets/images/music-junkeez-login.png'
 
 const projects = [
   {
     id: 1,
+    name: "Music Junkeez",
+    description: "A music forum where users can discuss their favorite musical artists, songs, and albums.",
+    deployedLink: "https://music-junkeez.herokuapp.com/",
+    githubLink: "https://github.com/jminor90/music-junkeez",
+    image: MusicJunkeez
+  },
+  {
+    id: 2,
     name: "The Tran$lator",
     description: "An application that returns exchange rates, and languages based on what country is serached.",
     deployedLink: "https://jminor90.github.io/the-translator/",
@@ -17,45 +26,39 @@ const projects = [
     image: TheTranslator
   },
   {
-    id: 2,
+    id: 3,
     name: "Off-N-On",
     description: "A ticketing application that emulates users being able to submit questions and to be answered by a technician.",
     deployedLink: "https://limitless-castle-65696.herokuapp.com/login",
     githubLink: "https://github.com/rxtATX/OffNOn",
     image: OffNOn
-  },
-  {
-    id: 3,
-    name: "Cartoon Trivia Game",
-    description: "A short timed trivia game based on some of my favorite cartoons.",
-    deployedLink: "https://jminor90.github.io/cartoon-trivia-game/",
-    githubLink: "https://github.com/jminor90/cartoon-trivia-game",
-    image: CartoonTrivia
-  },
-  {
-    id: 4,
-    name: "Weather Dashboard",
-    description: "A simple weather application that utilizes Open Weather API to return updated weather forecasts.",
-    deployedLink: "https://jminor90.github.io/weather-dashboard/",
-    githubLink: "https://github.com/jminor90/weather-dashboard",
-    image: WeatherDashboard
-  },
-  {
-    id: 5,
-    name: "NoSQL-NoSocial-Media",
-    description: "A back end application demonstrating MongoDB fundamentals",
-    deployedLink: "https://github.com/jminor90/NoSQL-NoSocial-Media",
-    githubLink: "https://github.com/jminor90/NoSQL-NoSocial-Media",
-    image: NoSQLNoSocialMedia
-  },
-  {
-    id: 6,
-    name: "Read Me Generator",
-    description: "A simple Node.JS application that gives prompts and returns a Markdown file used for a README",
-    deployedLink: "https://github.com/jminor90/read-me-generator",
-    githubLink: "https://github.com/jminor90/read-me-generator",
-    image: ReadMeGenerator
   }
+
+  // ,
+  // {
+  //   id: 4,
+  //   name: "Weather Dashboard",
+  //   description: "A simple weather application that utilizes Open Weather API to return updated weather forecasts.",
+  //   deployedLink: "https://jminor90.github.io/weather-dashboard/",
+  //   githubLink: "https://github.com/jminor90/weather-dashboard",
+  //   image: WeatherDashboard
+  // },
+  // {
+  //   id: 5,
+  //   name: "NoSQL-NoSocial-Media",
+  //   description: "A back end application demonstrating MongoDB fundamentals",
+  //   deployedLink: "https://github.com/jminor90/NoSQL-NoSocial-Media",
+  //   githubLink: "https://github.com/jminor90/NoSQL-NoSocial-Media",
+  //   image: NoSQLNoSocialMedia
+  // },
+  // {
+  //   id: 6,
+  //   name: "Read Me Generator",
+  //   description: "A simple Node.JS application that gives prompts and returns a Markdown file used for a README",
+  //   deployedLink: "https://github.com/jminor90/read-me-generator",
+  //   githubLink: "https://github.com/jminor90/read-me-generator",
+  //   image: ReadMeGenerator
+  // }
 ];
 
 export default function Projects() {
