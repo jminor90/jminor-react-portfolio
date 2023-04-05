@@ -1,10 +1,9 @@
-import '../styles/Resume.css'
 import ResumePDF from '../assets/documents/jminor-resume.pdf'
 export default function Resume() {
 
   return (
     <section id="resume">
-      <div class="container">
+      <div class="container-fluid d-flex flex-column align-items-center">
         <div class="section-title">
           <h2>
             Resume
@@ -15,9 +14,9 @@ export default function Resume() {
 
         <div class="row">
 
-          <div class="col-6">
+          <div class="col-xl-6">
             <h3><u>
-            Summary
+              Summary
             </u></h3>
             <div>
 
@@ -49,7 +48,7 @@ export default function Resume() {
             </ul>
           </div>
 
-          <div class="col-6">
+          <div class="col-xl-6">
             <h3><u>
               Professional Experience
             </u></h3>
@@ -57,7 +56,7 @@ export default function Resume() {
             <div>
               <h4><strong>
                 Patient Care Consultant
-                </strong></h4>
+              </strong></h4>
               <p>
                 2021-2022
               </p>
@@ -76,7 +75,7 @@ export default function Resume() {
             <div>
               <h4><strong>
                 Shift Supervisor
-                </strong></h4>
+              </strong></h4>
               <p>
                 2017-2021
               </p>

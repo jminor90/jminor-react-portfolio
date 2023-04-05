@@ -8,18 +8,214 @@
 
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 #root{
-  background-color: var(--background-color);
   font-family: Arial, Helvetica, sans-serif;
 }
-#about-me {
-  
-  padding-left: 300px;
-  background-image: linear-gradient(to bottom, #1d2731 0%, #083c5d 100%);
+
+section {
   color: var(--text-color);
+  background-image: linear-gradient(to bottom, #1d2731 0%, #083c5d 100%);
+}
+
+.section-title{
+  color: var(--contrast-color);
+  text-decoration: underline;
+}
+
+/*----------------------------------------------- *NAVBAR ---*/
+.navbar{
+  font-family: 'Rajdhani', sans-serif;
+  position: fixed !important;
+  top: 0;
+  z-index: 5;
+  width: 20vw;
+  max-width: 280px;
   height: 100vh;
+  background-image: linear-gradient(to left, #1d2731 0%, #083c5d 100%);
+  border-radius: 3px 22px 22px 0px;
+  border-bottom: solid 3px;
+  border-right: solid 4px;
+  border-top: solid 2px;
+  border-color: var(--layer2-color);
+}
+
+#profilePicture {
+  border-radius: 100%;
+  height: 175px;
+  border: 3px solid;
+  border-color: var(--text-color);
+}
+
+#myName{
+  color: var(--contrast-color);
+}
+#topNav{
+  text-decoration: none;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: initial;
+}
+
+ul.navbar-nav {
+  font-size: 1.5em;
+}
+
+a.nav-link {
+  color: var(--text-color)
+}
+
+
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ffffff26;
+  border: solid 1px;
+  border-color: var(--text-color);
+  border-radius: 15%;
+}
+
+#socialMedia *{
+  font-size: x-large;
+  margin-left: .3em;
+  margin-right: .3em;
+  text-decoration: none;
+  padding: 5px;
+  color: var(--text-color);
+  border: solid 1px;
+  border-radius: 100%;
+}
+
+#socialMedia *:hover {
+  color: var(--contrast-color);
+  border: solid 1px;
+  border-color: var(--contrast-color);
+}
+
+
+/*----------------------------------------------- *HERO SPAN ---*/
+.topSpan {
+  /* font-family: 'Marck Script', cursive; */
+  font-family: 'Marck Script', cursive;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 1.5%;
+  background-image: url(../assets/images/Starry-BG.gif);
+  border-bottom: solid 3px;
+  border-right: solid 2px;
+  border-left: solid 2px;
+  border-radius: 0px 0px 10px 0px;
+  font-size: 180%;
+  color: var(--contrast-color);
+  border-color: var(--layer2-color);
+  height: 100vh
+}
+
+#spanText{
+  margin-left:50%
+}
+
+/*----------------------------------------------- *ABOUT ME ---*/
+
+#about-me {
+  border-bottom: solid 3px;
+  border-radius: 0px 0px 10px 0px;
+}
+
+#about-me-img {
+  max-width: 250px;
+  max-height: 250px;
+  border: solid 2px;
+}
+
+/*----------------------------------------------- *PROJECTS ---*/
+#my-projects {
+  border-bottom: solid 3px;
+  border-radius: 0px 0px 10px 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.img-wrapper {
+  position: relative;
+  overflow: hidden;
+  margin: 1em;
+  
+}
+
+.img-wrapper > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  background-color: var(--text-color);
+  
+}
+
+.img-wrapper > .content {
+  position: absolute;
+  inset: 0;
+  font-size: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, .4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:black;
+
+}
+
+.img-wrapper > img,
+.img-wrapper > .content {
+  transition: 350ms ease-in-out;
+}
+
+.img-wrapper > .content.fade {
+  opacity: 0;
+}
+.img-wrapper:hover > .content.fade {
+  opacity: 1;
+}
+
+.img-wrapper:hover > img.blur {
+  filter: blur(5px);
+}
+
+.img-wrapper > .content.slide-up {
+  transform: translateY(100%);
+}
+.img-wrapper:hover > .content.slide-up {
+  transform: translateY(0);
+}
+
+/*----------------------------------------------- *RESUME ---*/
+#resume {
+  border-bottom: solid 3px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+#downloadButton{
+  background-color: var(--layer2-color);
+  color:var(--background-color);
+}
+
+/*----------------------------------------------- *CONTACT ME ---*/
+footer{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,43 +223,62 @@ html{
   border-radius: 0px 0px 10px 0px;
 }
 
-#about-me-img {
-  height:fit-content;
-  width: fit-content;
+.info *{
+  font-size: large;
 }
 
-.section-title *{
-  color:var(--contrast-color);
-  text-decoration: underline;
+/*----------------------------------------------- *MEDIA SCREEN ---*/
+@media screen and (min-width:768px) {
+  .container-fluid {
+    padding-left: 20vw !important;
+  }
 }
 
-@media screen and (max-width: 1000px) {
-  html{
-    scroll-padding-top: 140px;
-  }
-  #about-me{
 
-    padding-left: 15px;
-    /* margin-top: 100px;
-    margin-bottom: 150px; */
-    border-right: none;
-    border-left:none;
+@media screen and (min-width:1200px) {
+  #about-me {
+    height: 100vh;
   }
-  #about-me-img {
-    height:300px;
-    width: 300px;
+
+  #resume {
+    height: 100vh;
   }
-  /* .section-title{
-    padding-top: 200px;
+
+  #contact-me {
+    height: 100vh;
   }
-  .content{
-    padding-bottom: 200px;
-  } */
+
 
 }
-@media screen and (max-width:400px) {
-  #about-me-img {
-    height:200px;
-    width: 200px;
+@media screen and (min-width:1200px) and (min-height: 680px) {
+
+  #my-projects {
+    height: 100vh;
+  }
+}
+
+.navbar-toggler{
+  background-color: var(--layer2-color) !important;
+}
+
+@media screen and (max-width:768px) {
+  .navbar{
+    height: initial;
+    width: initial;
+  }
+
+  #socialMedia {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  #myName {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #topNav {
+    display: block;
   }
 }

@@ -1,11 +1,10 @@
-import '../styles/Project.css'
 import ProjectContents from './ProjectContents'
 import TheTranslator from '../assets/images/the-translator.png'
 import OffNOn from '../assets/images/off-n-on.png'
-import CartoonTrivia from '../assets/images/trivia-game.png'
+// import CartoonTrivia from '../assets/images/trivia-game.png'
 import WeatherDashboard from '../assets/images/weather-dashboard.png'
-import NoSQLNoSocialMedia from '../assets/images/nosql-nosocial-media.png'
-import ReadMeGenerator from '../assets/images/readme-generator.png'
+// import NoSQLNoSocialMedia from '../assets/images/nosql-nosocial-media.png'
+// import ReadMeGenerator from '../assets/images/readme-generator.png'
 import MusicJunkeez from '../assets/images/music-junkeez-login.png'
 
 const projects = [
@@ -32,17 +31,16 @@ const projects = [
     deployedLink: "https://limitless-castle-65696.herokuapp.com/login",
     githubLink: "https://github.com/rxtATX/OffNOn",
     image: OffNOn
+  },
+  {
+    id: 4,
+    name: "Weather Dashboard",
+    description: "A simple weather application that utilizes Open Weather API to return updated weather forecasts.",
+    deployedLink: "https://jminor90.github.io/weather-dashboard/",
+    githubLink: "https://github.com/jminor90/weather-dashboard",
+    image: WeatherDashboard
   }
-
-  // ,
-  // {
-  //   id: 4,
-  //   name: "Weather Dashboard",
-  //   description: "A simple weather application that utilizes Open Weather API to return updated weather forecasts.",
-  //   deployedLink: "https://jminor90.github.io/weather-dashboard/",
-  //   githubLink: "https://github.com/jminor90/weather-dashboard",
-  //   image: WeatherDashboard
-  // },
+  //,
   // {
   //   id: 5,
   //   name: "NoSQL-NoSocial-Media",
@@ -64,8 +62,8 @@ const projects = [
 export default function Projects() {
 
   return (
-    <section id="my-projects" class="d-flex align-items-center justify-content-center">
-      <div class="container">
+    <section id="my-projects" >
+      <div class="container-fluid d-flex flex-column align-items-center">
         <div class="section-title">
           <h2>My Projects</h2>
         </div>
