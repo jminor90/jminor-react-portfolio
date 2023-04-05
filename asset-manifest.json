@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/jminor-react-portfolio/static/css/main.4eca4d4d.css",
-    "main.js": "/jminor-react-portfolio/static/js/main.aea0e0eb.js",
+    "main.css": "/jminor-react-portfolio/static/css/main.636e767a.css",
+    "main.js": "/jminor-react-portfolio/static/js/main.0f60b885.js",
     "static/media/Starry-BG.gif": "/jminor-react-portfolio/static/media/Starry-BG.4c3ec7e617a5c67a53b0.gif",
     "static/media/weather-dashboard.png": "/jminor-react-portfolio/static/media/weather-dashboard.378583a989aafe3933aa.png",
     "static/media/music-junkeez-login.png": "/jminor-react-portfolio/static/media/music-junkeez-login.3190d6d6b530ce5eb83a.png",
     "static/media/patches.png": "/jminor-react-portfolio/static/media/patches.7168bc35a9e000333071.png",
     "static/media/the-translator.png": "/jminor-react-portfolio/static/media/the-translator.063f665354ba7127b8e4.png",
-    "static/media/trivia-game.png": "/jminor-react-portfolio/static/media/trivia-game.ddb3c0c2efaa003d94d9.png",
     "static/media/jminor-resume.pdf": "/jminor-react-portfolio/static/media/jminor-resume.69882a4fb69461133a23.pdf",
     "static/media/off-n-on.png": "/jminor-react-portfolio/static/media/off-n-on.9f41373417a14f904360.png",
-    "static/media/readme-generator.png": "/jminor-react-portfolio/static/media/readme-generator.8d96e2e886032cdc2bbb.png",
-    "static/media/nosql-nosocial-media.png": "/jminor-react-portfolio/static/media/nosql-nosocial-media.9791463f197e7e2e78f8.png",
     "index.html": "/jminor-react-portfolio/index.html",
-    "main.4eca4d4d.css.map": "/jminor-react-portfolio/static/css/main.4eca4d4d.css.map",
-    "main.aea0e0eb.js.map": "/jminor-react-portfolio/static/js/main.aea0e0eb.js.map"
+    "main.636e767a.css.map": "/jminor-react-portfolio/static/css/main.636e767a.css.map",
+    "main.0f60b885.js.map": "/jminor-react-portfolio/static/js/main.0f60b885.js.map"
   },
   "entrypoints": [
-    "static/css/main.4eca4d4d.css",
-    "static/js/main.aea0e0eb.js"
+    "static/css/main.636e767a.css",
+    "static/js/main.0f60b885.js"
   ]
 }
