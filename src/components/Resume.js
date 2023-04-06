@@ -9,7 +9,7 @@ export default function Resume() {
             Resume
           </h2>
         </div>
-        <p>10+ Years of connecting with customers with a diverse background in retail work spaces, ready for my next challenge to become a Junior Web Developer.
+        <p>Over 10 years of connecting with customers in a diverse background of retail spaces. Innovative, self-motivated and with a keen sense for details. Adaptive and ready for the next challenge.
         </p>
 
         <div class="row">
@@ -19,15 +19,16 @@ export default function Resume() {
               Summary
             </u></h3>
             <div>
-
+            <p><b>Located in Tucson, Arizona</b></p>
               <p><i>
-                Former retail, and service worker - soon to be certified in Web Development
+                Certified Full-Stack Web Developer, with a keen sense for detail and user experience.
               </i></p>
+
               <ul>
-                <li>Tucson, AZ</li>
+
                 <li>Fast-paced learner</li>
                 <li>Detail orientated</li>
-                <li>Self-starter, ready for any new challenges</li>
+                <li>Self-starter, ready for any challenge</li>
               </ul>
             </div>
 
@@ -66,7 +67,7 @@ export default function Resume() {
                 Alternative Medicine Retail Space - Tucson, AZ
               </i></p>
               <ul>
-                <li>Asssisted Medical Patients in finding the right product for their own specific needs</li>
+                <li>Assisted Medical Patients in finding the right product for their own specific needs</li>
                 <li>Attended educational classes to further knowledge in alternative medicine and product 	knowledge.</li>
                 <li>Made personal connections with patients, to build trust, and to follow up with previous medicinal 	experiences.</li>
               </ul>
